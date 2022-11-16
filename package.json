@@ -1,0 +1,15 @@
+{
+  "private": "true",
+  "scripts": {
+    "develop": "yarn workspace site develop",
+    "build": "yarn workspace site build",
+    "clean": "yarn workspace site clean",
+    "serve": "yarn workspace site serve"
+  },
+  "workspaces": {
+    "packages": [
+      "local-plugin",
+      "site"
+    ]
+  }
+}
